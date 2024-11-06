@@ -30,3 +30,40 @@ body{
    margin-left: 220px;
     
 }
+.circle-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.circle-back, .circle-front {
+    position: absolute;
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.circle-back {
+    background-color: #c8c10d;
+    bottom: 20px; 
+    right: 20px; 
+    margin-right: 400px;
+}
+
+.circle-front {
+    background-color: rgba(199, 5, 128, 0.8);
+    bottom: 40px; 
+    right: 0;
+    margin-right: 410px; 
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.circle-front p {
+    margin: 0;
+    text-align: center;
+}
