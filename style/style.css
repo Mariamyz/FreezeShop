@@ -1,5 +1,8 @@
 @import './fonts.css';
 @import '../blocks.css/header.css';
+@import '../blocks.css/advertising.css';
+@import '../blocks.css/icons.css';
+@import '../blocks.css/footer.css';
 
 ul,ol,h1,h2,h3,h4,h5,h6,p,body{
     margin: 0;
@@ -28,12 +31,14 @@ body{
 }
 .baner{
    margin-left: 220px;
-    
+    float: left ;
+    clear: both;
 }
 .circle-container {
     position: relative;
     width: 200px;
     height: 200px;
+  
 }
 
 .circle-back, .circle-front {
