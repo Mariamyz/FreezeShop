@@ -1,0 +1,98 @@
+.line-green{
+    background: linear-gradient(135deg, #c8c10d, #a5a20a);
+    padding: 20px;
+}
+.line-green p{
+    text-transform: uppercase;
+    color: white;
+    font-family: LatoR;
+    font-size: 25px;
+    text-align: center;
+    transition: color 0.3s, transform 0.3s;
+}
+.line-green p:hover {
+    transform: translateY(-3px);
+}
+
+.img-grey{
+    background: linear-gradient(135deg, #eae7e8, #dcd9da);
+}
+.img-grey img{
+    height: 200px;
+}
+.img-grey div{
+    text-align: center;
+}
+
+.block{
+    margin: 30px;
+}
+.content .content1{
+    width: 240px;
+    height: 550px;
+    background: #eae7e8;
+    margin: 0px 30px 80px 0px;
+    float: left;
+    position: relative;
+    border: 1px solid #dcd9da;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.content .content1:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.02);
+}
+
+ul .li-head{
+    color: #cb3362;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 50px;
+    font-family: LatoR;
+}
+.content1 ul {
+    color: #7a6666;
+    position: absolute;
+    top: 50px;
+    left: 45px;
+    text-align: center;
+    font-family: RobotR;
+    font-size: 13px;
+    line-height: 1.6;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.content .content2{
+    width: 800px;
+}
+
+h6{
+    color: #cb3362;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: LatoR;
+    transition: color 0.3s, transform 0.3s;
+}
+
+h6:hover {
+    transform: translateY(-3px);
+}
+
+.content2 p {
+    color: #7a6666;
+    font-family: RobotR;
+    font-size: 13px;
+    margin: 30px;
+    line-height: 1.6;
+    transition: color 0.3s, transform 0.3s;
+}
+
+a{
+    color: #7a6666;
+    transition: color 0.3s;
+}
+a:hover {
+    color:  #c8c10d; 
+    text-decoration: underline;
+}

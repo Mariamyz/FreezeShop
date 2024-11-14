@@ -3,6 +3,11 @@
 @import '../blocks.css/advertising.css';
 @import '../blocks.css/icons.css';
 @import '../blocks.css/footer.css';
+@import '../blocks.css/baner.css';
+@import '../blocks.css/about.css';
+@import '../blocks.css/product.css';
+@import '../blocks.css/blog.css';
+@import '../blocks.css/single-post.css';
 
 ul,ol,h1,h2,h3,h4,h5,h6,p,body{
     margin: 0;
@@ -28,47 +33,4 @@ body{
     width: 960px;
     box-sizing: border-box;
     padding: 0 10px;
-}
-.baner{
-   margin-left: 220px;
-    float: left ;
-    clear: both;
-}
-.circle-container {
-    position: relative;
-    width: 200px;
-    height: 200px;
-  
-}
-
-.circle-back, .circle-front {
-    position: absolute;
-    border-radius: 50%;
-    width: 170px;
-    height: 170px;
-    display: flex;
-    align-items: center;
-    
-}
-
-.circle-back {
-    background-color: #c8c10d;
-    bottom: 20px; 
-    right: 20px; 
-    margin-right: 400px;
-}
-
-.circle-front {
-    background-color: rgba(199, 5, 128, 0.8);
-    bottom: 40px; 
-    right: 0;
-    margin-right: 410px; 
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.circle-front p {
-    margin: 0;
-    text-align: center;
 }

@@ -1,0 +1,46 @@
+.baner {
+    margin-left: 10%; 
+    float: left;
+    clear: both;
+}
+
+.circle-container {
+    position: relative;
+    width: 50%; 
+    max-width: 200px; 
+    aspect-ratio: 1; 
+}
+
+.circle-back, .circle-front {
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-back {
+    background-color: #c8c10d;
+    width: 15%; 
+    height: 30%;
+    bottom: -12%; 
+    right: 2%; 
+    margin-right: 25%;
+}
+
+.circle-front {
+    background-color: rgba(199, 5, 128, 0.8);
+    width: 15%; 
+    height: 30%;
+    bottom: -10%; 
+    right: 0;
+    color: white;
+    font-size: 20px; 
+    font-weight: bold;
+    text-align: center;
+    margin-right: 25%;
+}
+
+.circle-front p {
+    margin: 0;
+}
